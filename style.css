@@ -154,14 +154,22 @@ header {
 
 header .logo {
     margin-bottom: 15px;
-    width: 100px;
-    height: 50px;
+    width: 80px;
+    height: 30px;
 }
 
 .logo img{
     width: 100%;
 }  
+header .flag {
+    margin-bottom: 15px;
+    width: 100px;
+    height: 30px;
+}
 
+.logo img{
+    width: 100%;
+}  
 header .nav-bar {
     height: calc(4rem + 1rem);
     position: relative;
