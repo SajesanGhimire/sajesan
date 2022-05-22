@@ -161,15 +161,7 @@ header .logo {
 .logo img{
     width: 100%;
 }  
-header .flag {
-    margin-bottom: 15px;
-    width: 100px;
-    height: 30px;
-}
 
-.flag.gif{
-    width: 80%;
-}  
 header .nav-bar {
     height: calc(4rem + 1rem);
     position: relative;
