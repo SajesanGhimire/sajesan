@@ -167,8 +167,8 @@ header .flag {
     height: 30px;
 }
 
-.logo img{
-    width: 100%;
+.flag.gif{
+    width: 80%;
 }  
 header .nav-bar {
     height: calc(4rem + 1rem);
