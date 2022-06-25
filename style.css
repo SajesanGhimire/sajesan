@@ -25,11 +25,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .welcome-box{border-radius:0;}
 .bb-0{border-bottom: 0px transparent;}
 .welcome-box-body{padding: 15px 85px 105px;width: 100%;}
 .welcome-box-body .modal-title {font-size: 36px;color: #3B444E;letter-spacing: 0;line-height: 40px;margin-bottom: 20px;}
 .welcome-box-body p {font-size: 18px;color: #3B444E;line-height: 25px;}
+
 body {
     background-color: var(--bg-color);
     color: white;
