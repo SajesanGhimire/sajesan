@@ -1324,4 +1324,58 @@ footer a {
 	position: absolute;
 	width: 180px;
 }
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.share-container {
+  border-radius: 15px;
+  display: flex;
+  padding-right: 0;
+  text-align: center;
+  transition: width 0.5s;
+  width: 80px;
+  background-color: #eeeeee;
+}
+*, *::before, *::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.share-container {
+  border-radius: 15px;
+  display: flex;
+  padding-right: 0;
+  text-align: center;
+  transition: width 0.5s;
+  width: 80px;
+  background-color: #eeeeee;
+}
 
