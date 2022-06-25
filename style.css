@@ -152,6 +152,15 @@ header {
     border-bottom: 2px solid white;
 }
 
+header .logo {
+    margin-bottom: 15px;
+    width: 100px;
+    height: 50px;
+}
+
+.logo img{
+    width: 100%;
+}  
 header .nav-bar {
     height: calc(4rem + 1rem);
     position: relative;
