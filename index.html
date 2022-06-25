@@ -445,5 +445,54 @@ window.cookieconsent.initialise({
 <div style="width:60px;height:60px;position:fixed; left:10px;bottom:10px;">
 <a href="https://www.mediafire.com/file/7n1z4ejwloirykb/_Sajesan_Ghimire_15623930.apk/file"><img src="app.png" style="width:60px;height:60px;" /></a>
 </div>
+
+<div class="animate slide-in-down notification-button">
+    <i class="fa fa-files-o"></i> Link Copied to Clipboard
+</div>
+<div class="container">
+    <div class="share-container">
+        <div class="share-btn">Share</div>
+        <div contenteditable="true" class="share-url"></div>
+    </div>
+</div>
+<script>
+// cache dom
+var $shareBtn = $('.share-btn');
+var $shareUrl = $('.share-url');
+var $shareContainer = $('.share-container');
+var $notificationButton = $('.notification-button');
+
+// set data
+var $url = 'https://selfnote.io/read/AHSUF8D93K76D0XJ';
+var $shared = false;
+
+/**
+ *
+ */
+function shareLink(e){
+
+    // set active class
+    $shareBtn.toggleClass('active');
+    $shareUrl.toggleClass('active');
+    $shareContainer.toggleClass('active');
+
+    if ($shared === false) {
+
+        // trigger notification alert
+        $notificationButton.toggleClass('active');
+        $shared = true;
+        $shareBtn.text('Unshare');
+        $shareUrl.text($url);
+
+        var range = document.createRange();
+        range.selectNode($(this).next()[0]);
+        window.getSelection().addRange(range);
+
+        try {
+            // Now that we've selected the anchor text, execute the copy command
+            var successful = document.execCommand('copy');
+</script>
+
+
 </body>
 </html>
